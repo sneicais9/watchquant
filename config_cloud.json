@@ -1,0 +1,15 @@
+{
+  "project_name": "WatchQuant MVP",
+  "version": "0.1.0",
+  "database": {"path": "watchquant.db"},
+  "scraping": {
+    "ebay": {"app_id": "", "cert_id": ""},
+    "chrono24": {"enabled": false}
+  },
+  "alerts": {"telegram_token": "", "telegram_chat_id": ""},
+  "strategy": {
+    "underval_alert_threshold": 0.15,
+    "underval_strong_buy_threshold": 0.25,
+    "underval_suspicious_threshold": 0.40
+  }
+}

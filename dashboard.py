@@ -1,3 +1,4 @@
+import streamlit_setup
 """
 WatchQuant MVP — Dashboard Streamlit
 ======================================
