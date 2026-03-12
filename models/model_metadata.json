@@ -1,0 +1,105 @@
+{
+  "model_name": "random_forest",
+  "trained_at": "2026-03-11T15:06:03.702761",
+  "n_samples": 1290,
+  "n_features": 25,
+  "n_features_numeric": 19,
+  "n_features_macro": 10,
+  "has_macro_signals": true,
+  "n_references": 18,
+  "numeric_features_used": [
+    "condition_score",
+    "completeness_score",
+    "case_size_mm",
+    "age_years",
+    "num_active_listings",
+    "avg_price_ref",
+    "median_price_ref",
+    "price_spread_ref",
+    "retail_price_eur",
+    "signal_gold_usd",
+    "signal_gold_usd_chg30d",
+    "signal_eur_usd",
+    "signal_chf_eur",
+    "signal_chf_eur_chg30d",
+    "signal_sp500_chg30d",
+    "signal_vix",
+    "signal_btc_usd_chg30d",
+    "retail_increases_90d",
+    "retail_avg_increase_90d"
+  ],
+  "cv_results": {
+    "ridge": {
+      "mae": 164.2132,
+      "mae_std": 14.2917,
+      "r2": 0.1882,
+      "mape_approx": 42.9871
+    },
+    "lasso": {
+      "mae": 163.2571,
+      "mae_std": 14.8855,
+      "r2": 0.1935,
+      "mape_approx": 42.7368
+    },
+    "gradient_boosting": {
+      "mae": 168.3341,
+      "mae_std": 6.7622,
+      "r2": -0.0196,
+      "mape_approx": 44.0659
+    },
+    "random_forest": {
+      "mae": 161.3169,
+      "mae_std": 10.1863,
+      "r2": 0.1337,
+      "mape_approx": 42.2289
+    }
+  },
+  "final_metrics": {
+    "mae": 141.04,
+    "mape": 49.73,
+    "r2": 0.2989
+  },
+  "price_stats": {
+    "mean": 382.01,
+    "median": 299.38,
+    "min": 10.0,
+    "max": 9500.0
+  },
+  "macro_snapshot": {
+    "signal_gold_pln_per_gram": 608.47,
+    "signal_gold_pln_per_gram_chg7d": 0,
+    "signal_gold_pln_per_gram_chg30d": 0,
+    "signal_eur_usd": 1.1641,
+    "signal_eur_usd_chg7d": 0,
+    "signal_eur_usd_chg30d": 0,
+    "signal_eur_chf": 0.9027,
+    "signal_eur_chf_chg7d": 0,
+    "signal_eur_chf_chg30d": 0,
+    "signal_eur_gbp": 0.86545,
+    "signal_eur_gbp_chg7d": 0,
+    "signal_eur_gbp_chg30d": 0,
+    "signal_eur_jpy": 183.67,
+    "signal_eur_jpy_chg7d": 0,
+    "signal_eur_jpy_chg30d": 0,
+    "signal_chf_usd": 1.2896,
+    "signal_chf_usd_chg7d": 0,
+    "signal_chf_usd_chg30d": 0,
+    "signal_chf_eur": 1.1078,
+    "signal_chf_eur_chg7d": 0,
+    "signal_chf_eur_chg30d": 0,
+    "signal_sp500": 6801.05,
+    "signal_sp500_chg7d": -0.43,
+    "signal_sp500_chg30d": 0,
+    "signal_vix": 25.21,
+    "signal_vix_chg7d": 6.15,
+    "signal_vix_chg30d": 0,
+    "signal_btc_usd": 70759.32,
+    "signal_btc_usd_chg7d": 5.18,
+    "signal_btc_usd_chg30d": 0,
+    "signal_eth_usd": 2064.3442,
+    "signal_eth_usd_chg7d": 4.82,
+    "signal_eth_usd_chg30d": 0,
+    "retail_increases_90d": 20,
+    "retail_avg_increase_90d": 6.325
+  }
+}

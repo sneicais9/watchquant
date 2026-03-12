@@ -1,0 +1,8 @@
+config.json
+*.db
+*.pkl
+__pycache__/
+venv/
+logs/
+*.log
+models/pricing_model.pkl
